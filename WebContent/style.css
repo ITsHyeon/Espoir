@@ -1,0 +1,74 @@
+
+
+// espoir
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+// header
+.headermenu {
+	background: black;
+	color: #a3a3a3;
+	font-size: 12px;
+	padding: 0px 14px;
+}
+.headermenu ul{
+	list-style: none;
+	line-height: 30px;
+	vertical-align: middle;
+	text-align: right;
+	padding-right: 25px;
+}
+.headermenu li{
+	list-style: none;
+	line-height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: right;
+	padding-right: 25px;
+}
+
+// top
+.topmenu {
+	background: white;
+	color: black;
+	font: 18px;
+	font-family: "Times New Roman", Times, serif;
+	padding: 0px 23px;
+}
+
+.topmenu ul {
+	list-style: none;
+	line-height: 30px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.topmenu li {
+	list-style: none;
+	line-height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.serchbox {
+	border: 1px solid #666666;
+	display: inline-block;
+	border-radius: 4px;
+	vertical-align: middle;
+}
+
+input[type=text] {
+	width: 150px;
+	box-sizing: border-box;
+	border: 0px solid #666666; border-radius : 4px;
+	font-size: 12px;
+	background-color: white;
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	padding: 5px 10px 5px 10px;
+	border-radius: 4px;
+}
+
