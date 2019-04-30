@@ -10,27 +10,27 @@
 	font-family: 'marian';
 	src: url("font/Marianina.woff");
 }
+
 .topmenu {
 	background: white;
 	color: black;
-	font: 20px;
 	font-family: marian;
-	padding: 0px 23px;
+	font: 40px;
 }
 
 .topmenu ul {
 	list-style: none;
-	line-height: 30px;
 	vertical-align: middle;
 	text-align: center;
+	font-size: 15px;
 }
 
 .topmenu li {
 	list-style: none;
-	line-height: 30px;
 	display: inline-block;
 	vertical-align: middle;
 	text-align: center;
+	font-size: 15px;
 }
 
 .serchbox {
@@ -49,20 +49,21 @@ input[type=text] {
 	background-color: white;
 	background-position: 10px 10px;
 	background-repeat: no-repeat;
-/* 	padding: 5px 10px 5px 10px;
- */	border-radius: 4px;
+	/* 	padding: 5px 10px 5px 10px;*/
+	border-radius: 4px;
 }
 </style>
 </head>
 <body>
 	<div class="topmenu">
 		<ul>
-			<li>NEW & BEST</li>
-			<li>SHOP</li>
-			<li>EVENT</li>
-			<li>SERVICE</li>
-			<li><img src="image/logo.gif"></li>
-			<li>
+			<li style="padding: 0px 15x 0px 0px;">NEW & BEST</li>
+			<li style="padding: 0px 15px;">SHOP</li>
+			<li style="padding: 0px 15px;">EVENT</li>
+			<li style="padding: 0px 15px;">SERVICE</li>
+			<li style="padding: 0px 100px;"><img src="image/logo.gif"
+				width="80px" height="30px"></li>
+			<li style="padding: 0px 10px 4px; margin: 0px 0px 0px 25px;">
 				<div class="serchbox">
 					<form>
 						<img src="image/search.png" width="20px" height="20px"> <input
@@ -70,7 +71,8 @@ input[type=text] {
 					</form>
 				</div>
 			</li>
-			<li><img src="image/bag.png" width="25px" height="25px"></li>
+			<li style="margin: 0px 0px 0px 20px;"><img src="image/bag.png"
+				width="25px" height="25px"></li>
 		</ul>
 	</div>
 </body>
