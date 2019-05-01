@@ -10,33 +10,56 @@
 	background: black;
 	color: #a3a3a3;
 	font-size: 12px;
-	padding: 0px 14px;
+	padding-right: 20px;
 }
 
 .headermenu ul {
 	list-style: none;
-	line-height: 30px;
+	line-height: 25px;
 	vertical-align: middle;
 	text-align: right;
-	padding-right: 25px;
 }
 
 .headermenu li {
 	list-style: none;
-	line-height: 30px;
+	line-height: 25px;
 	display: inline-block;
 	vertical-align: middle;
 	text-align: right;
-	padding-right: 25px;
 }
+
+a:link {
+	color: #a3a3a3;
+	text-decoration: none;
+	list-style: none;
+}
+
+a:active {
+	color: white;
+	text-decoration: none;
+	list-style: none;
+}
+
+a:visited {
+	color: #a3a3a3;
+	text-decoration: none;
+	list-style: none;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+	list-style: none;
+}
+
 </style>
 </head>
 <body>
 	<div class="headermenu">
 		<ul>
-			<li><a href="#">리뷰보드</a></li>
-			<li><a href="#">로그인</a></li>
-			<li><a href="#">회원가입</a></li>
+			<li style="padding-right: 20px;"><a href="#">리뷰보드</a></li>
+			<li style="padding-right: 20px;"><a href="#">로그인</a></li>
+			<li style="padding-right: 450px;"><a href="#">회원가입</a></li>
 		</ul>
 	</div>
 </body>

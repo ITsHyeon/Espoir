@@ -9,7 +9,11 @@
 <head>
 <meta charset="UTF-8">
 <style>
+html, body {
+	margin: auto 0;
+}
 table {
+	margin-top: -13px;
 	width: 100%;
 	border-collapse: collapse;
 }
