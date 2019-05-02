@@ -29,6 +29,7 @@ html, body {
 	vertical-align: middle;
 	text-align: center;
 	font-size: 18px;
+	margin: auto 0;
 }
 
 .topmenu li {
@@ -40,7 +41,7 @@ html, body {
 }
 
 .serchbox {
-	border: 1px solid rgba(102,102,102, .5);
+	border: 1px solid rgba(102, 102, 102, .5);
 	display: inline-block;
 	border-radius: 4px;
 	vertical-align: middle;
@@ -61,25 +62,26 @@ input[type=text] {
 </style>
 </head>
 <body>
-	<div class="topmenu">
-		<ul>
-			<li style="padding: 0px 40px 0px 0px;">NEW & BEST</li>
-			<li style="padding: 0px 40px 0px 0px;">SHOP</li>
-			<li style="padding: 0px 40px 0px 0px;">EVENT</li>
-			<li style="padding: 0px 40px 0px 0px;">SERVICE</li>
-			<li style="padding: 0px 100px;"><img src="image/logo.gif"
-				width="118px" height="47.19px"></li>
-			<li style="padding: 0px 10px 4px; margin: 0px 0px 0px 25px;">
-				<div class="serchbox">
-					<form>
-						<img src="image/search.png" width="18px" height="18px" style="vertical-align: middle; margin-left: 2px;"> <input
-							type="text" placeholder="SEARCH" name="search">
-					</form>
-				</div>
-			</li>
-			<li style="margin: 0px 0px 0px 20px;"><img src="image/btn_bsk.gif"
-				width="15px" height="20px"></li>
-		</ul>
-	</div>
+		<div class="topmenu">
+				<ul>
+					<li style="padding: 0px 45px 0px 0px;">NEW & BEST</li>
+					<li style="padding: 0px 45px 0px 0px;">SHOP</li>
+					<li style="padding: 0px 45px 0px 0px;">EVENT</li>
+					<li style="padding: 0px 0px 0px 0px;">SERVICE</li>
+					<li style="padding: 0px 130px 0px 130px; text-align: center; margin: 0 auto;"><img
+						src="image/logo.gif" width="118px" height="47.19px"></li>
+					<li style="padding: 0px 5px 0px;">
+						<div class="serchbox">
+							<form>
+								<img src="image/search.png" width="18px" height="18px"
+									style="vertical-align: middle; margin-left: 2px;"> <input
+									type="text" placeholder="SEARCH" name="search">
+							</form>
+						</div>
+					</li>
+					<li style="margin: 0px 0px 0px 5px;"><img
+						src="image/btn_bsk.gif" width="15px" height="20px"></li>
+				</ul>
+		</div>
 </body>
 </html>
