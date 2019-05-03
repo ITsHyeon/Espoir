@@ -7,6 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-BOTTOM
+<div>
+공지사항 :ㅇㅇㅇㅇㅇ
+</div>
+
 </body>
 </html>

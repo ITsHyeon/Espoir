@@ -21,7 +21,7 @@ table {
 <title>Espoir</title>
 </head>
 <body>
-	<table>
+	<table border="1">
 		<tr>
 			<td><jsp:include page="header.jsp" flush="false" /></td>
 		</tr>
