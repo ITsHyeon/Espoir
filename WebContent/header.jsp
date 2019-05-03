@@ -59,7 +59,7 @@ a:hover {
 		<ul>
 			<li style="padding-right: 20px;"><a href="#">리뷰보드</a></li>
 			<li style="padding-right: 20px;"><a href="#">로그인</a></li>
-			<li style="padding-right: 450px;"><a href="#">회원가입</a></li>
+			<li style="padding-right: 310px;"><a href="#">회원가입</a></li>
 		</ul>
 	</div>
 </body>
