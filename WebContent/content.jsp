@@ -198,14 +198,17 @@ dd {
 	font-size: 18px;
 	margin: 0px;
 }
-.moto{
+
+.moto {
 	text-align: center;
 }
-.viewmore{
-margin-top: 10px;
+
+.viewmore {
+	margin-top: 10px;
 	font: 18px 'marianl';
 	color: #FF463A;
 }
+
 .bestItemContain {
 	text-align: center;
 	display: inline-block;
@@ -255,6 +258,14 @@ margin-top: 10px;
 .price {
 	font: 15px 'yoon310';
 	font-weight: 600;
+}
+
+.instargram {
+	text-align: center;
+}
+
+.profile {
+	font: 14px "marianl";
 }
 </style>
 
@@ -365,8 +376,9 @@ margin-top: 10px;
 			height="600px">
 	</div>
 	<br>
-	<br>	<br>
-	
+	<br>
+	<br>
+
 	<div class="lookBook">
 		<dl>
 			<dt>LOOK BOOK</dt>
@@ -391,13 +403,33 @@ margin-top: 10px;
 			</div>
 		</div>
 	</div>
-	<br><br><br>
+	<br>
+	<br>
+	<br>
 	<div class="moto">
 		<dl>
 			<dt>MOTO</dt>
 			<dd>오늘의 메이크업</dd>
 		</dl>
 		<p class="viewmore">VIEW MORE&nbsp;&gt;</p>
+		<img src="image/moto.PNG" width="1440" height="720">
+	</div>
+	<br>
+	<br>
+	<br>
+
+	<div class="instargram">
+		<dl>
+			<dt>ESPOIR IN REAL LIFE</dt>
+			<dd>인스타그램</dd>
+		</dl>
+		<br> <br>
+
+		<div class="profile">
+			<img src="image/instagram_profile.jpg" width="28" height="28">
+			<span>espoir_makeup</span>
+		</div>
+		<div></div>
 	</div>
 	<script>
 		var slideIndex = 1;
