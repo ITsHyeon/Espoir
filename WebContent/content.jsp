@@ -10,6 +10,8 @@
 <title>main</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 <style>
 @font-face {
 	font-family: 'yoon350';
@@ -112,17 +114,147 @@
 	border-radius: 3px 0 0 3px;
 }
 
-.bestItem{
+.checked {
+	color: gray;
+}
+
+.bestItem {
 	text-align: center;
 }
-dt{
+
+.topColor {
+	text-align: center;
+}
+
+.lookBook {
+	text-align: center;
+}
+
+.lookLeft>img {
+	position: absolute;
+	top: 2960px;
+	right: 1250px;
+	font: 40px 'marian';
+	color: white;
+}
+
+.lookLeft>span {
+	letter-spacing: 3px;
+	position: absolute;
+	font: 40px 'marian';
+	color: white;
+	top: 3330px;
+	left: 380px;
+	position: absolute;
+}
+
+.lookCenter>img {
+	position: static;
+}
+
+.lookCenter>span {
+	letter-spacing: 3px;
+	position: absolute;
+	font: 48px 'marian';
+	color: white;
+	top: 3470px;
+	left: 715px;
+}
+
+.lookRight>img {
+	position: absolute;
+	top: 2860px;
+	right: 320px;
+}
+
+.lookRight>span {
+	letter-spacing: 3px;
+	position: absolute;
+	top: 3400px;
+	left: 1180px;
+	font: 40px 'marian';
+	color: white;
+}
+
+.plusBtn1 {
+	position: absolute;
+	top: 3110px;
+	right: 1030px;
+}
+
+.plusBtn2 {
+	position: absolute;
+	top: 3160px;
+	right: 810px;
+}
+
+dt {
 	font-family: 'marian';
 	font-size: 58px;
 }
-dd{
+
+dd {
 	font-family: 'yoon310';
 	font-size: 18px;
 	margin: 0px;
+}
+.moto{
+	text-align: center;
+}
+.viewmore{
+margin-top: 10px;
+	font: 18px 'marianl';
+	color: #FF463A;
+}
+.bestItemContain {
+	text-align: center;
+	display: inline-block;
+	margin-left: 420px;
+}
+
+.context {
+	font: 24px 'yoon310';
+	font-style: italic;
+}
+
+.prevButton {
+	font: 70px 'yoon310';
+	color: lightgray;
+	display: inline-block;
+	margin-top: 150px;
+	margin-right: 50px;
+	float: left;
+}
+
+.nextButton {
+	font: 70px 'yoon310';
+	color: lightgray;
+	display: inline-block;
+	margin-top: 150px;
+	margin-right: 50px;
+	float: right;
+}
+
+.containText {
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	margin-top: 130px;
+	margin-right: 30px;
+	float: left;
+}
+
+.containImage {
+	display: inline-block;
+}
+
+.comment {
+	font: 15px 'yoon310';
+}
+
+.price {
+	font: 15px 'yoon310';
+	font-weight: 600;
 }
 </style>
 
@@ -200,6 +332,72 @@ dd{
 			<dt>BEST ITEM</dt>
 			<dd>가장 사랑받는 베스트 상품</dd>
 		</dl>
+	</div>
+	<div class="bestItemContain">
+		<div class="prevButton">&#8249;</div>
+		<div class="containText">
+			<div class="checked">
+				<span class="fa fa-star checked"></span> <span
+					class="fa fa-star checked"></span> <span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span> <span class="fa fa-star"></span>
+			</div>
+			<p class="context">
+				<b>"</b> 원래 피부가 좋은 것 처럼<br> 톤업이 되고 촉촉하고<br> 매끈하게 피부 표현이
+				되요. <b>"</b>
+			</p>
+			<p class="comment">글로우라이저 톤 피커 쿠션 SPF50+/PA+++</p>
+			<p class="price">&#92;23,000</p>
+		</div>
+		<div class="containImage">
+			<img src="image/best_cushion.png" width="295px" height="455px"
+				style="margin-right: 100px;"> <img
+				src="image/best_lookbook.png" width="295px" height="455px"
+				style="opacity: 0.5;">
+		</div>
+		<div class="nextButton">&#8250;</div>
+	</div>
+	<div class="topColor">
+		<dl>
+			<dt>TOP 3 COLOR</dt>
+			<dd>지금 제일 잘 나가는 컬러</dd>
+		</dl>
+		<br> <br> <img src="image/top_color.PNG" width="1240px"
+			height="600px">
+	</div>
+	<br>
+	<br>	<br>
+	
+	<div class="lookBook">
+		<dl>
+			<dt>LOOK BOOK</dt>
+			<dd>S/S LOOK BOOK</dd>
+		</dl>
+		<p class="viewmore">VIEW MORE&nbsp;&gt;</p>
+		<div class="lookImage">
+			<div class="lookLeft">
+				<img src="image/lookbook_left.jpg" width="295px" height="442.5px">
+				<span>FREAK LOOK</span>
+			</div>
+			<div class="lookCenter">
+				<img src="image/lookbook_center.jpg" width="554px" height="831px">
+				<button class="w3-button w3-xlarge w3-circle w3-white plusBtn1">+</button>
+				<button class="w3-button w3-xlarge w3-circle w3-white plusBtn2">+</button>
+
+				<span>ROSY PINK LOOK</span>
+			</div>
+			<div class="lookRight">
+				<img src="image/lookbook_right.jpg" width="420px" height="630px"
+					class="lookRight"> <span>CORAL SNATCH LOOK</span>
+			</div>
+		</div>
+	</div>
+	<br><br><br>
+	<div class="moto">
+		<dl>
+			<dt>MOTO</dt>
+			<dd>오늘의 메이크업</dd>
+		</dl>
+		<p class="viewmore">VIEW MORE&nbsp;&gt;</p>
 	</div>
 	<script>
 		var slideIndex = 1;

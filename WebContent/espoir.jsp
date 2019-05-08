@@ -12,6 +12,7 @@
 html, body {
 	margin: auto 0;
 }
+
 table {
 	margin-top: -13px;
 	width: 100%;
@@ -21,7 +22,7 @@ table {
 <title>Espoir</title>
 </head>
 <body>
-	<table border="1">
+	<table>
 		<tr>
 			<td><jsp:include page="header.jsp" flush="false" /></td>
 		</tr>
