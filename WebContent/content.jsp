@@ -266,6 +266,7 @@ dd {
 
 .profile {
 	font: 14px "marianl";
+	margin-bottom: 5px;
 }
 </style>
 
@@ -419,18 +420,32 @@ dd {
 	<br>
 
 	<div class="instargram">
-		<dl>
-			<dt>ESPOIR IN REAL LIFE</dt>
-			<dd>인스타그램</dd>
-		</dl>
-		<br> <br>
+        <dl>
+            <dt>ESPOIR IN REAL LIFE</dt>
+            <dd>인스타그램</dd>
+        </dl>
+        <br><br>
 
-		<div class="profile">
-			<img src="image/instagram_profile.jpg" width="28" height="28">
-			<span>espoir_makeup</span>
-		</div>
-		<div></div>
-	</div>
+        <div class="profile">
+            <img src="image/instagram_profile.jpg" width="28" height="28">
+            <span>espoir_makeup</span>
+        </div>
+        <div class="feed1">
+            <img src="image/insta_1.jpg" width="299.3" height="299.3">
+            <img src="image/insta_2.jpg" width="299.3" height="299.3">
+            <img src="image/insta_3.jpg" width="299.3" height="299.3">
+        </div>
+        <div class="feed2">
+            <img src="image/insta_4.jpg" width="299.3" height="299.3">
+            <img src="image/insta_5.jpg" width="299.3" height="299.3">
+            <img src="image/insta_6.jpg" width="299.3" height="299.3">
+        </div>
+         <div class="feed3">
+            <img src="image/insta_7.jpg" width="299.3" height="299.3">
+            <img src="image/insta_8.jpg" width="299.3" height="299.3">
+            <img src="image/insta_9.jpg" width="299.3" height="299.3">
+        </div>
+    </div>
 	<script>
 		var slideIndex = 1;
 		var cnt = 1;
