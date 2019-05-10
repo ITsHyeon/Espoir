@@ -30,7 +30,8 @@ table {
 			<td><jsp:include page="top.jsp" flush="false" /></td>
 		</tr>
 		<tr>
-			<td><jsp:include page="<%=contentPage%>" flush="false" /><br><br></td>
+			<td><jsp:include page="<%=contentPage%>" flush="false" /><br>
+			<br></td>
 		</tr>
 		<tr>
 			<td><jsp:include page="bottom.jsp" flush="false" /></td>
