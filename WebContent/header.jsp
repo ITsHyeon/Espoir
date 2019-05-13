@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Header</title>
 <style>
 .headermenu {
 	background: black;
@@ -28,25 +28,25 @@
 	text-align: right;
 }
 
-a:link {
+.headermenu a:link {
 	color: #a3a3a3;
 	text-decoration: none;
 	list-style: none;
 }
 
-a:active {
+.headermenu a:active {
 	color: white;
 	text-decoration: none;
 	list-style: none;
 }
 
-a:visited {
+.headermenu a:visited {
 	color: #a3a3a3;
 	text-decoration: none;
 	list-style: none;
 }
 
-a:hover {
+.headermenu a:hover {
 	color: white;
 	text-decoration: none;
 	list-style: none;
