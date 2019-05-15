@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+	<%
+	request.setCharacterEncoding("UTF-8");
+%>
 <!DOCTYPE html>
 <html>
 
@@ -24,6 +27,8 @@
 
 .makeup {
 	display: inline-block;
+	margin: 0px 90px 20px 500px;
+	vertical-align: top;
 }
 
 .makeup dt {
@@ -43,6 +48,8 @@
 
 .go {
 	display: inline-block;
+	vertical-align: top;
+	margin-right: 500px;
 }
 
 .go dt {

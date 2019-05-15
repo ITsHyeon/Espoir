@@ -118,27 +118,27 @@ table {
 	margin-bottom: 50px;
 }
 
-a {
+.menu a {
 	color: black;
 	text-decoration: none;
 }
 
-a:link {
+.menu a:link {
 	color: black;
 	text-decoration: none;
 }
 
-a:visited {
+.menu a:visited {
 	color: black;
 	text-decoration: none;
 }
 
-a:active {
+.menu a:active {
 	color: red;
 	text-decoration: none;
 }
 
-a:hover {
+.menu a:hover {
 	color: red;
 }
 
@@ -253,56 +253,57 @@ a:hover {
 			<td name="product">
 				<div class="product">
 					<div class="first">
-						<div class="detail">
-							<div class="img">
-								<img src="image/product_1.png">
+						<a href="cushion.jsp">
+							<div class="detail">
+								<div class="img">
+									<img src="image/product_1.png">
+								</div>
+								<dl>
+									<dt>테이핑 커버 쿠션 SPF25 PA++</dt>
+									<dd>#끝장커버 #스웨트프루프</dd>
+								</dl>
+								<div class="dotDiv">
+									<span class="dot" style="background-color: #F2E3CE"></span> <span
+										class="dot" style="background-color: #EFDDC5"></span> <span
+										class="dot" style="background-color: #F1D9C0"></span> <span
+										class="dot" style="background-color: #EED8B3"></span> <span
+										class="dot" style="background-color: #EEC6AD"></span> <span
+										class="dot"
+										style="background-color: #EEBC87; margin-left: -38px;"></span>
+									<span class="dot"
+										style="background-color: #DDAE80; margin-left: -38px;"></span>
+								</div>
+								<div class="price">
+									<span>\ 33,000</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									<img src="image/btn_bsk.gif" width="15" height="20">
+								</div>
 							</div>
-							<dl>
-								<dt>테이핑 커버 쿠션 SPF25 PA++</dt>
-								<dd>#끝장커버 #스웨트프루프</dd>
-							</dl>
-							<div class="dotDiv">
-								<span class="dot" style="background-color: #F2E3CE"></span> <span
-									class="dot" style="background-color: #EFDDC5"></span> <span
-									class="dot" style="background-color: #F1D9C0"></span> <span
-									class="dot" style="background-color: #EED8B3"></span> <span
-									class="dot" style="background-color: #EEC6AD"></span> <span
-									class="dot"
-									style="background-color: #EEBC87; margin-left: -38px;"></span>
-								<span class="dot"
-									style="background-color: #DDAE80; margin-left: -38px;"></span>
+						</a> <a href="cushion2.jsp">
+							<div class="detail">
+								<div class="img">
+									<img src="image/product_2.png">
+								</div>
+								<dl>
+									<dt>테이핑 커버 쿠션 리필 SPF25 PA++</dt>
+									<dd>#끝장커버 #스웨트프루프</dd>
+								</dl>
+								<div class="dotDiv">
+									<span class="dot" style="background-color: #F2E3CE"></span> <span
+										class="dot" style="background-color: #EFDDC5"></span> <span
+										class="dot" style="background-color: #F1D9C0"></span> <span
+										class="dot" style="background-color: #EED8B3"></span> <span
+										class="dot" style="background-color: #EEC6AD"></span> <span
+										class="dot"
+										style="background-color: #EEBC87; margin-left: -38px;"></span>
+									<span class="dot"
+										style="background-color: #DDAE80; margin-left: -38px;"></span>
+								</div>
+								<div class="price">
+									<span>\ 16,000</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									<img src="image/btn_bsk.gif" width="15" height="20">
+								</div>
 							</div>
-							<div class="price">
-								<span>\ 33,000</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								<img src="image/btn_bsk.gif" width="15" height="20">
-							</div>
-						</div>
-
-						<div class="detail">
-							<div class="img">
-								<img src="image/product_2.png">
-							</div>
-							<dl>
-								<dt>테이핑 커버 쿠션 리필 SPF25 PA++</dt>
-								<dd>#끝장커버 #스웨트프루프</dd>
-							</dl>
-							<div class="dotDiv">
-								<span class="dot" style="background-color: #F2E3CE"></span> <span
-									class="dot" style="background-color: #EFDDC5"></span> <span
-									class="dot" style="background-color: #F1D9C0"></span> <span
-									class="dot" style="background-color: #EED8B3"></span> <span
-									class="dot" style="background-color: #EEC6AD"></span> <span
-									class="dot"
-									style="background-color: #EEBC87; margin-left: -38px;"></span>
-								<span class="dot"
-									style="background-color: #DDAE80; margin-left: -38px;"></span>
-							</div>
-							<div class="price">
-								<span>\ 16,000</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								<img src="image/btn_bsk.gif" width="15" height="20">
-							</div>
-						</div>
-
+						</a>
 						<div class="detail">
 							<div class="img">
 								<img src="image/product_3.png">
